@@ -1,0 +1,24 @@
+{
+    "fluentMethods": true,
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "name",
+            "fieldType": "String",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "author",
+            "fieldType": "Integer"
+        }
+    ],
+    "changelogDate": "20170427174546",
+    "dto": "no",
+    "service": "serviceClass",
+    "entityTableName": "book",
+    "pagination": "no",
+    "microserviceName": "microServiceApp",
+    "searchEngine": false
+}
